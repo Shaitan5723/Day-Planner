@@ -10,7 +10,7 @@ Given that the typical work-day starts at 9 AM and ends at 5 PM, users will be a
 
 Each block is color coded to indicate whether it is in the past, present, or future.
 As shown below, past is greyed out, present is in red, and future is in green.
-![color coded blocks](/Assets/images/color_code.png)
+![color coded blocks](/Assets/images/color_coded.png)
 
 Once tasks are entered onto the taskbar, they can be saved into local storage by pressing the save button on the right side.
 This way, refreshing the page or closing the browser will allow them to remain on the page.
@@ -18,4 +18,5 @@ This way, refreshing the page or closing the browser will allow them to remain o
 
 If needed, tasks can also be overwritten by simply typing into the same box and saving it. Tasks can also be deleted by saving a blank box.
 Finally, the last way to delete a task is by clicking the trash can icon on the right side of the box.
+
 ![trash_can_icon](/Assets/images/trash.png)
