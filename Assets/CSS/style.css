@@ -33,7 +33,7 @@ textarea {
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .hour {
@@ -50,11 +50,13 @@ textarea {
 .present {
   background-color: #ff6961;
   color: white;
+
 }
 
 .future {
   background-color: #77dd77;
   color: white;
+
 }
 
 .saveBtn {
