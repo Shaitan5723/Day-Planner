@@ -1,4 +1,3 @@
-var now = moment();
 var currentDay = $('#currentDay')
 var lead = $('.lead')
 var hourBlock = $('.time-block')
@@ -7,7 +6,7 @@ var add = $('saveBtn')
 
 
 //Adds current date to the header display//
-currentDay.text(moment().format('MMMM Do YYYY'));
+currentDay.text(moment().format('MMM DD, YYYY'));
 lead.append(currentDay)
 
 //Sets the time of the workday to start at 9 AM of the day in question//
@@ -28,6 +27,7 @@ for (var i = 9; i < 18; i++) {
       currentTime = 'past';
     }
 
+    //Creats the timeblocks for the tasks to be added into//
     var createContainers = 
     `<container class="row" id='${i}'>
         <div class="hour col-2">${timeBlock}</div>
@@ -40,10 +40,12 @@ for (var i = 9; i < 18; i++) {
         </div>
     </container>`
     ;
-
+//appends the created timeblocks into the container//
 $(".container-fluid").append(createContainers);
 
 }
+
+
 
 var eventContent = $(this).siblings('.event').val();
 var eventTime = $(this).parent().attr('id');
